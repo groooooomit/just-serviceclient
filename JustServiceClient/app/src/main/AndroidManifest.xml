@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service android:name=".DemoService" />
+        <service
+            android:name=".AidlService"
+            android:process=":remote" />
     </application>
 
 </manifest>

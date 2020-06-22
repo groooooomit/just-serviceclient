@@ -1,2 +1,3 @@
+include ':just-serviceclient'
 include ':app'
 rootProject.name = "JustServiceClient"
